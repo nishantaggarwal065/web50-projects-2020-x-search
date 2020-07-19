@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Advanced Search 
+        </title>
+        <style>
+               .button
+                     {
+                         padding:5px;
+                         margin: 5px;margin-left:20px;width:94%;
+                     }
+               #hoo{ background-color:#338DFF; padding:7px;color:white;border-radius: 2px;border-color:#338DFF; margin-left:650px;font-size:11px; margin-top:15px;}
+               div{padding-left:30px;}
+               .boo{  background-color:blue;}
+               .but{width:600px;}
+               .td3{font-size:12px; padding:8px; color:grey;font-family:Arial;}
+               table {margin-top:40px;}
+               #td5{ font-size:18px;  color:45484C; font-family:Arial;}
+               #td4 {font-size:15px; color:grey;font-family:Arial;}
+               .td6{font-family:Arial; font-size:13px;}
+        </style>
+
+    </head>
+    <body>
+        
+        <form action="https://www.google.com/search">
+            <div style="text-align:right; margin:5px;" > <a href="file:///D:/Course/Project%200-Search/index.html"> Google Search</a> </div> 
+            <div style="color:red; font-family:arial; font-size:20px;padding:20px; padding-top:10px;">
+                 Advanced Search
+            </div>
+            <hr style="color:grey;background-color:grey">
+            <div >
+                 <table> 
+                 <thead> 
+                       <tr> 
+                          <td id="td5"> Find pages with...  </td>
+                          <td> </td>
+                          <td id="td4"> To do this in the search box. </td>
+                       </tr>
+                 </thead>
+                 <tr> 
+                    <td class="td6"> all these words:</td>              
+                    <td class="but"> <input class="button" type="text" name="as_q"></td>
+                    <td class="td3"> Type the important words: tri-colour rat terrier </td> 
+                 </tr>
+                 <tr> 
+                    <td class="td6"> this exact word or phrase:</td>
+                    <td class="but"> <input class="button" type="text" name="as_epq"> </td> 
+                    <td class="td3" > Put exact words in quotes: "rat terrier" </td>
+                 </tr>
+                 <tr>  
+                    <td class="td6"> any of these words:</td>
+                    <td class="but"> <input class="button" type="text" name="as_oq"> </td> 
+                    <td class="td3" >Type OR between all the words you want: miniature OR standard</td>
+                 </tr>
+                 <tr>  
+                    <td class="td6"> none of these words: </td>
+                    <td class="but"><input class="button" type="text" name="as_eq"> </td> 
+                    <td class="td3"> Put a minus sign just before words that you don't want:<br> -rodent, -"Jack Russell" </td>
+                 </tr>  
+                 </table>          
+                 <input  id="hoo" type="submit" value="Advanced Search"> 
+            </div>
+
+        </form>
+
+    </body>
+</html>
